@@ -32,12 +32,21 @@ onMounted(() => {
 </script>
 
 <template>
+  <div id="count">
+      <button @click="count++">{{ count }}</button>
+  </div>
+
   <div class="greetings" ref="greetings">
     home
   </div>
+
 </template>
 
 <style scoped>
+.count{
+  width: 100px;
+  height: 10px;
+}
 .greetings{
   width: 1000px;
   height: 600px;

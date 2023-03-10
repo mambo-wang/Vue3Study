@@ -1,6 +1,6 @@
 <script setup>
 import { provide } from 'vue';
-import HelloWorld from './components/HelloWorld.vue'
+import EchartsDemo from './components/EchartsDemo.vue'
 import TheWelcome from './components/TheWelcome.vue'
 import * as echarts from "echarts"
 
@@ -11,7 +11,7 @@ import * as echarts from "echarts"
   </header>
 
   <main>
-    <HelloWorld />
+    <EchartsDemo />
   </main>
 </template>
 
