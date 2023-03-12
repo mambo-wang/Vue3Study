@@ -1,5 +1,5 @@
 <script setup>
-import { onMounted , ref} from 'vue';
+import { onMounted , ref} from 'vue'
 import * as echarts from 'echarts'
 let myChart = ref(null)
 let greetings = ref(null)

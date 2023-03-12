@@ -1,8 +1,10 @@
 <script setup>
+
 import { provide } from 'vue';
 import EchartsDemo from './components/EchartsDemo.vue'
 import TheWelcome from './components/TheWelcome.vue'
 import * as echarts from "echarts"
+
 
 </script>
 
